@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="A birthday surprise for Muskaan.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Happy Birthday, Muskaan">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:title" content="Happy Birthday, Muskaan">
+<meta property="og:description" content="A birthday surprise for Muskaan.">
+<meta property="og:image" content="og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The opening page: a cream envelope with a birthday letter, a camera and a bouquet on a black background">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Happy Birthday, Muskaan">
+<meta name="twitter:description" content="A birthday surprise for Muskaan.">
+<meta name="twitter:image" content="og-image.jpg">
+<title>Happy Birthday, Muskaan</title>
+<link rel="stylesheet" href="style.css">
+<noscript><style>.fly,.reveal,.cal,.pc-msg p{opacity:1!important;transform:none!important}.c{opacity:1!important}</style></noscript>
+</head>
+<body>
+
+<!-- shared SVG symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <g id="daisy">
+      <ellipse cx="0" cy="-12" rx="5" ry="10" fill="var(--p)"/>
+      <ellipse cx="0" cy="-12" rx="5" ry="10" fill="var(--p)" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-12" rx="5" ry="10" fill="var(--p)" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-12" rx="5" ry="10" fill="var(--p)" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-12" rx="5" ry="10" fill="var(--p)" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-12" rx="5" ry="10" fill="var(--p)" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-12" rx="5" ry="10" fill="var(--p)" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-12" rx="5" ry="10" fill="var(--p)" transform="rotate(315)"/>
+      <circle r="6.5" fill="var(--c)"/>
+      <circle r="6.5" fill="none" stroke="rgba(0,0,0,.12)" stroke-width="1"/>
+    </g>
+    <g id="blossom" fill="none" stroke="#6d6a60" stroke-width="1.1" stroke-linejoin="round">
+      <path d="M0 0C-7-5-7-16 0-19C7-16 7-5 0 0Z"/>
+      <path d="M0 0C-7-5-7-16 0-19C7-16 7-5 0 0Z" transform="rotate(72)"/>
+      <path d="M0 0C-7-5-7-16 0-19C7-16 7-5 0 0Z" transform="rotate(144)"/>
+      <path d="M0 0C-7-5-7-16 0-19C7-16 7-5 0 0Z" transform="rotate(216)"/>
+      <path d="M0 0C-7-5-7-16 0-19C7-16 7-5 0 0Z" transform="rotate(288)"/>
+      <circle r="2.2"/>
+    </g>
+    <path id="star" d="M0-10L2.9-3.1H9.5L4.2 1.6L6.2 8.1L0 4.2L-6.2 8.1L-4.2 1.6L-9.5-3.1H-2.9Z"/>
+  </defs>
+</svg>
+
+<main>
+
+<!-- ============ 1 · ENVELOPE ============ -->
+<section id="s1" class="scene s1">
+  <div class="col env-stage" id="envStage">
+
+    <div class="px" data-px="0,-26,-3">
+      <div class="env" id="env">
+        <svg class="env-back" viewBox="0 -50 400 350" aria-hidden="true">
+          <defs>
+            <linearGradient id="gBack" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ece7dc"/><stop offset="1" stop-color="#d9d3c5"/></linearGradient>
+            <linearGradient id="gFlap" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3efe6"/><stop offset="1" stop-color="#e4dfd2"/></linearGradient>
+          </defs>
+          <path d="M16 62H384Q392 62 392 70V288Q392 296 384 296H16Q8 296 8 288V70Q8 62 16 62Z" fill="url(#gBack)"/>
+          <path d="M8 70L186 -36Q200 -44 214 -36L392 70Z" fill="url(#gFlap)"/>
+        </svg>
+        <div class="letter">
+          <span class="l1">Happy Birthday</span>
+          <span class="l2">Muskuuu</span>
+        </div>
+        <svg class="env-front" viewBox="0 -50 400 350" aria-hidden="true">
+          <path d="M8 70L200 192L8 296Z" fill="#e7e2d5"/>
+          <path d="M392 70L200 192L392 296Z" fill="#e3ddcf"/>
+          <path d="M8 296L200 192L392 296Z" fill="#f0ece2"/>
+          <path d="M8 70L200 192L392 70" fill="none" stroke="rgba(120,110,90,.18)" stroke-width="1.5"/>
+          <path d="M8 296L200 192L392 296" fill="none" stroke="rgba(120,110,90,.12)" stroke-width="1.5"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="px px-cam" data-px="-14,-62,-12">
+      <div class="camera" aria-hidden="true">
+        <svg viewBox="0 0 110 100">
+          <defs>
+            <linearGradient id="gCam" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#faf8f4"/><stop offset="1" stop-color="#d6d2c9"/></linearGradient>
+            <radialGradient id="gLens" cx=".38" cy=".35" r=".8"><stop offset="0" stop-color="#4a4a52"/><stop offset="1" stop-color="#0d0d11"/></radialGradient>
+          </defs>
+          <rect x="6" y="10" width="98" height="84" rx="16" fill="url(#gCam)"/>
+          <rect x="6" y="10" width="98" height="84" rx="16" fill="none" stroke="rgba(0,0,0,.08)"/>
+          <rect x="16" y="19" width="14" height="9" rx="3" fill="#e9e6df"/>
+          <circle cx="40" cy="23.5" r="3.2" fill="#cfcbc2"/>
+          <circle cx="90" cy="24" r="4.2" fill="#e7e4dc" stroke="#c9c5bb"/>
+          <circle cx="57" cy="60" r="27" fill="#ebe8e1" stroke="#cdc9bf" stroke-width="1.4"/>
+          <circle cx="57" cy="60" r="20.5" fill="url(#gLens)"/>
+          <circle cx="57" cy="60" r="13" fill="none" stroke="#2e2e36" stroke-width="2"/>
+          <circle cx="50" cy="53" r="4" fill="rgba(255,255,255,.55)"/>
+          <circle cx="20" cy="46" r="3.4" fill="#e7e4dc" stroke="#cdc9bf"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="px px-bq" data-px="14,-70,10">
+      <div class="bouquet" aria-hidden="true">
+        <svg viewBox="0 0 150 200">
+          <g fill="none" stroke="#3f8e44" stroke-width="3" stroke-linecap="round">
+            <path d="M75 198C72 160 62 130 62 112"/>
+            <path d="M75 198C77 150 88 112 92 92"/>
+            <path d="M75 198C74 160 70 120 66 72"/>
+            <path d="M75 198C80 160 98 132 108 104"/>
+            <path d="M75 198C70 140 42 84 28 46"/>
+            <path d="M75 198C80 140 108 76 121 38"/>
+          </g>
+          <g fill="#4aa14f">
+            <ellipse cx="92" cy="160" rx="16" ry="6" transform="rotate(-38 92 160)"/>
+            <ellipse cx="58" cy="168" rx="16" ry="6" transform="rotate(38 58 168)"/>
+            <ellipse cx="82" cy="182" rx="12" ry="5" transform="rotate(-70 82 182)"/>
+          </g>
+          <g fill="#8db9ea">
+            <ellipse cx="26" cy="48" rx="4.5" ry="7"/><ellipse cx="35" cy="60" rx="4" ry="6.5"/><ellipse cx="20" cy="60" rx="3.6" ry="6"/>
+            <ellipse cx="122" cy="40" rx="4.5" ry="7"/><ellipse cx="113" cy="53" rx="4" ry="6.5"/><ellipse cx="129" cy="54" rx="3.6" ry="6"/>
+          </g>
+          <use href="#daisy" transform="translate(108 104) scale(.85)" style="--p:#fff2cf;--c:#f4bd37"/>
+          <use href="#daisy" transform="translate(66 72) scale(.62)" style="--p:#f7d03e;--c:#e69a1a"/>
+          <use href="#daisy" transform="translate(92 92) scale(.66)" style="--p:#f7d03e;--c:#e69a1a"/>
+          <use href="#daisy" transform="translate(40 100) scale(.55)" style="--p:#f9dc5c;--c:#e69a1a"/>
+          <use href="#daisy" transform="translate(62 114) scale(1.2)" style="--p:#f08cbc;--c:#f2a41f"/>
+        </svg>
+      </div>
+    </div>
+
+  </div>
+  <div class="hint" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- ============ 2 · POSTCARD + TOY ============ -->
+<section id="s2" class="scene s2">
+  <div class="col">
+    <article class="postcard reveal" id="postcard">
+      <span class="pc-hint">write a message here...</span>
+      <div class="stamp" aria-hidden="true">
+        <svg viewBox="0 0 40 46"><circle cx="20" cy="23" r="15" fill="none" stroke="#efe5c9" stroke-width="1.4"/><path d="M20 32C9 25 9 15 15 14c3-.5 4 2 5 3.5 1-1.5 2-4 5-3.5 6 1 6 11-5 18Z" fill="#efe5c9"/></svg>
+      </div>
+
+      <div class="pc-msg" id="pcMsg">
+        <p>Happy Birthday, my Muskaan</p>
+        <p>I could never imagine my life without you.</p>
+        <p>I feel truly lucky to have you in my life.</p>
+        <p>I love the way you notice the smallest things about me, care for me, and worry whenever something feels wrong.</p>
+        <p>I still remember when my nose was bleeding and blood was coming out, and even though there were so many people around, you came forward and cleaned it for me without caring about who was watching. You only cared about making sure I was okay.</p>
+        <p>That little moment may have seemed simple, but it meant more to me than you probably know.</p>
+        <p>Thank you for always caring for me, understanding me, and making me feel loved.</p>
+        <p class="sign">From: Zaid</p>
+      </div>
+
+      <div class="pc-addr">
+        <p>To: Muskaan</p>
+        <p>From: Zaid</p>
+      </div>
+
+      <svg class="sketch" viewBox="0 0 90 80" aria-hidden="true">
+        <path d="M6 74C26 60 40 46 60 20" fill="none" stroke="#6d6a60" stroke-width="1.1"/>
+        <use href="#blossom" transform="translate(20 56) scale(.9) rotate(10)"/>
+        <use href="#blossom" transform="translate(44 40) scale(1.05) rotate(-18)"/>
+        <use href="#blossom" transform="translate(66 16) scale(.8) rotate(30)"/>
+      </svg>
+      <p class="pc-foot">Friday, 23 October 2026</p>
+
+      <button class="toy" id="toy" type="button" aria-label="Toy figurines of Zaid and Muskaan hugging">
+        <svg viewBox="0 0 280 346" aria-hidden="true" focusable="false">
+  <defs>
+    <radialGradient id="mYel" cx=".34" cy=".28" r=".95"><stop offset="0" stop-color="#ffe46a"/><stop offset=".5" stop-color="#f8c80a"/><stop offset="1" stop-color="#cf9600"/></radialGradient>
+    <linearGradient id="mYelA" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffd940"/><stop offset=".6" stop-color="#f2bd05"/><stop offset="1" stop-color="#c98f00"/></linearGradient>
+    <linearGradient id="mHair" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#43434d"/><stop offset=".45" stop-color="#17171c"/><stop offset="1" stop-color="#050507"/></linearGradient>
+    <linearGradient id="mPink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff9ab8"/><stop offset=".55" stop-color="#ee638f"/><stop offset="1" stop-color="#c93f6b"/></linearGradient>
+    <linearGradient id="mDenim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e6f1fb"/><stop offset=".55" stop-color="#bcd5e9"/><stop offset="1" stop-color="#8fb0cc"/></linearGradient>
+    <linearGradient id="mWhite" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#ebebf2"/><stop offset="1" stop-color="#c3c4d2"/></linearGradient>
+    <linearGradient id="mShirt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#f1f1f6"/><stop offset="1" stop-color="#cdceda"/></linearGradient>
+    <pattern id="mStripe" width="10" height="12" patternUnits="userSpaceOnUse"><rect width="10" height="12" fill="url(#mShirt)"/><rect x="4" width="1.8" height="12" fill="#9fa6bd"/></pattern>
+    <linearGradient id="mSide" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="rgba(255,255,255,.32)"/><stop offset=".35" stop-color="rgba(255,255,255,0)"/><stop offset=".75" stop-color="rgba(0,0,0,0)"/><stop offset="1" stop-color="rgba(0,0,0,.26)"/></linearGradient>
+    <radialGradient id="mShadow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="rgba(0,0,0,.55)"/><stop offset="1" stop-color="rgba(0,0,0,0)"/></radialGradient>
+    <radialGradient id="mSpec" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="rgba(255,255,255,.85)"/><stop offset="1" stop-color="rgba(255,255,255,0)"/></radialGradient>
+    <g id="mHand">
+      <path d="M-9 -3C-9 -11 9 -11 9 -3C9 4 5 9 0 10C-5 9 -9 5 -9 -3Z" fill="url(#mYelA)"/>
+      <path d="M-2 -2C-4 -2 -4 5 0 6L3 8C8 6 9 -1 6 -4C4 -6 2 -4 -2 -2Z" fill="#a67500" opacity=".55"/>
+      <path d="M-6 -8Q0 -11 6 -8" stroke="rgba(255,255,255,.6)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    </g>
+    <g id="mFlower"><circle cx="0" cy="-4.4" r="3.4"/><circle cx="4.2" cy="-1.4" r="3.4"/><circle cx="2.6" cy="3.7" r="3.4"/><circle cx="-2.6" cy="3.7" r="3.4"/><circle cx="-4.2" cy="-1.4" r="3.4"/><circle r="2" fill="#f7b4c8"/></g>
+  </defs>
+
+  <g class="toy-all">
+    <ellipse cx="140" cy="338" rx="118" ry="9" fill="url(#mShadow)"/>
+
+    <!-- hidden hand (his arm around her), behind her hair -->
+    <use href="#mHand" transform="translate(40 186) rotate(-20) scale(1.15)"/>
+
+    <!-- ================= MUSKAAN ================= -->
+    <g class="fig fig-g">
+      <!-- long hair, back pieces -->
+      <path d="M48 116Q36 168 52 216Q62 232 82 222L92 120Z" fill="url(#mHair)"/>
+      <path d="M134 122Q146 170 138 214Q128 228 114 216L108 122Z" fill="url(#mHair)"/>
+      <!-- legs -->
+      <rect x="62" y="272" width="70" height="20" rx="3" fill="url(#mWhite)"/>
+      <rect x="62" y="290" width="33" height="38" rx="3" fill="url(#mWhite)"/><rect x="99" y="290" width="33" height="38" rx="3" fill="url(#mWhite)"/>
+      <rect x="62" y="290" width="70" height="38" rx="3" fill="url(#mSide)"/>
+      <path d="M97 292V328" stroke="rgba(120,120,150,.35)" stroke-width="1.6"/>
+      <rect x="60" y="322" width="36" height="9" rx="3" fill="#f0a39c"/><rect x="98" y="322" width="36" height="9" rx="3" fill="#f0a39c"/>
+      <!-- torso (pink floral kurti) -->
+      <path d="M60 178Q60 167 73 165H118Q131 167 131 178L140 274H54Z" fill="url(#mPink)"/>
+      <g fill="#fff" opacity=".95">
+        <use href="#mFlower" transform="translate(74 192) scale(1.25)"/><use href="#mFlower" transform="translate(118 196) scale(1.1)"/>
+        <use href="#mFlower" transform="translate(92 226) scale(1.7)"/><use href="#mFlower" transform="translate(126 238) scale(1.3)"/>
+        <use href="#mFlower" transform="translate(68 252) scale(1.2)"/><use href="#mFlower" transform="translate(104 262) scale(1)"/>
+        <use href="#mFlower" transform="translate(120 214) scale(.9)"/>
+      </g>
+      <path d="M84 165L95 192L106 165Z" fill="#e6a800"/>
+      <circle cx="95" cy="200" r="2.4" fill="#fff"/><circle cx="95" cy="212" r="2.4" fill="#fff"/>
+      <path d="M60 178Q60 167 73 165H118Q131 167 131 178L140 274H54Z" fill="url(#mSide)"/>
+      <path d="M62 180L56 270" stroke="rgba(255,255,255,.45)" stroke-width="2.4" stroke-linecap="round"/>
+      <rect x="54" y="268" width="86" height="7" rx="2" fill="#fff" opacity=".92"/>
+      <!-- neck -->
+      <rect x="84" y="154" width="22" height="16" rx="3" fill="#d9a000"/>
+      <!-- left arm (hangs) -->
+      <path d="M60 176Q44 182 42 208L38 262Q50 270 60 262L68 210Q72 190 66 178Z" fill="url(#mPink)"/>
+      <path d="M60 176Q44 182 42 208L38 262Q50 270 60 262L68 210Q72 190 66 178Z" fill="url(#mSide)"/>
+      <path d="M44 210L41 256" stroke="rgba(255,255,255,.5)" stroke-width="2.4" stroke-linecap="round"/>
+      <rect x="37" y="256" width="25" height="8" rx="3" fill="#fff"/>
+      <use href="#mHand" transform="translate(48 276) rotate(8) scale(1.25)"/>
+      <!-- head (tilted toward him) -->
+      <g class="head head-g">
+        <rect x="60" y="94" width="72" height="66" rx="21" fill="url(#mYel)"/>
+        <ellipse cx="80" cy="108" rx="13" ry="7" fill="url(#mSpec)" opacity=".9" transform="rotate(-24 80 108)"/>
+        <path d="M71 125Q79 116 87 125M104 125Q112 116 120 125" stroke="#2b190b" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M70 123L66 120M72 121L69 117M120 123L124 120M118 121L121 117" stroke="#2b190b" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M71 112Q79 107 87 110M104 110Q112 107 120 112" stroke="#1b1008" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+        <path d="M76 138Q96 164 116 138Z" fill="#6e1620"/>
+        <path d="M80 139Q96 151 112 139Z" fill="#fff"/>
+        <path d="M88 150Q96 156 104 150" stroke="#d6535a" stroke-width="2" fill="none"/>
+        <ellipse cx="69" cy="140" rx="8" ry="5" fill="#ff7468" opacity=".5"/><ellipse cx="123" cy="140" rx="8" ry="5" fill="#ff7468" opacity=".5"/>
+        <path d="M54 130Q46 84 82 74Q110 68 130 86Q146 102 136 134Q132 112 116 104Q106 98 96 100Q84 98 76 106Q60 114 54 130Z" fill="url(#mHair)"/>
+        <path d="M96 100L92 78" stroke="rgba(255,255,255,.18)" stroke-width="1.4"/>
+        <path d="M66 100Q76 82 100 80" stroke="rgba(255,255,255,.45)" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M56 140Q52 176 60 206" stroke="rgba(255,255,255,.3)" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+        <path d="M134 140Q138 170 134 196" stroke="rgba(255,255,255,.2)" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <circle cx="62" cy="144" r="2" fill="#fff"/>
+      </g>
+    </g>
+
+    <!-- ================= ZAID ================= -->
+    <g class="fig fig-b" transform="translate(-20 0)">
+      <!-- legs: light blue wide jeans -->
+      <rect x="160" y="272" width="86" height="20" rx="3" fill="url(#mDenim)"/>
+      <rect x="160" y="290" width="40" height="38" rx="3" fill="url(#mDenim)"/><rect x="206" y="290" width="40" height="38" rx="3" fill="url(#mDenim)"/>
+      <rect x="160" y="290" width="86" height="38" rx="3" fill="url(#mSide)"/>
+      <path d="M203 292V328M172 298L170 324M236 298L238 324" stroke="rgba(80,120,160,.3)" stroke-width="1.6"/>
+      <rect x="158" y="322" width="44" height="10" rx="4" fill="#1d2b4a"/><rect x="204" y="322" width="44" height="10" rx="4" fill="#1d2b4a"/>
+      <!-- torso: white striped shirt -->
+      <path d="M162 178Q162 167 175 165H229Q242 167 242 178L250 274H154Z" fill="url(#mStripe)"/>
+      <path d="M162 178Q162 167 175 165H229Q242 167 242 178L250 274H154Z" fill="url(#mSide)"/>
+      <path d="M190 165L203 196L216 165Z" fill="#e6a800"/>
+      <path d="M180 164L203 200L186 202L172 172Z" fill="#fff" stroke="rgba(0,0,0,.14)" stroke-width="1"/>
+      <path d="M226 164L203 200L220 202L234 172Z" fill="#f4f4f8" stroke="rgba(0,0,0,.14)" stroke-width="1"/>
+      <path d="M203 200V274" stroke="rgba(0,0,0,.14)" stroke-width="1.6"/>
+      <circle cx="203" cy="214" r="2.2" fill="#c9cad6"/><circle cx="203" cy="236" r="2.2" fill="#c9cad6"/><circle cx="203" cy="258" r="2.2" fill="#c9cad6"/>
+            <path d="M163 182L156 268" stroke="rgba(255,255,255,.55)" stroke-width="2.4" stroke-linecap="round"/>
+      <!-- neck -->
+      <rect x="192" y="154" width="22" height="16" rx="3" fill="#d9a000"/>
+      <!-- right arm (hangs) -->
+      <path d="M240 176Q258 182 260 208L264 262Q252 270 242 262L236 210Q232 190 238 178Z" fill="url(#mStripe)"/>
+      <path d="M240 176Q258 182 260 208L264 262Q252 270 242 262L236 210Q232 190 238 178Z" fill="url(#mSide)"/>
+      <rect x="241" y="256" width="25" height="8" rx="3" fill="#fff"/>
+      <use href="#mHand" transform="translate(254 276) rotate(-8) scale(1.25)"/>
+      <!-- head: leaning in for a kiss -->
+      <g class="head head-b">
+        <rect x="168" y="94" width="72" height="66" rx="21" fill="url(#mYel)"/>
+        <ellipse cx="190" cy="108" rx="13" ry="7" fill="url(#mSpec)" opacity=".9" transform="rotate(-24 190 108)"/>
+        <path d="M180 124Q188 117 196 124M212 124Q220 117 228 124" stroke="#2b190b" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+        <rect x="173" y="108" width="28" height="22" rx="7" fill="rgba(255,255,255,.14)" stroke="#0d0d11" stroke-width="4.2"/>
+        <rect x="207" y="108" width="28" height="22" rx="7" fill="rgba(255,255,255,.14)" stroke="#0d0d11" stroke-width="4.2"/>
+        <path d="M201 116Q204 112.500 207 116" stroke="#0d0d11" stroke-width="3.4" fill="none"/>
+        <path d="M173 114L167 112M235 114L241 112" stroke="#0d0d11" stroke-width="3.4" stroke-linecap="round"/>
+        <path d="M178 102Q187 97 196 101M212 101Q221 97 230 102" stroke="#120b08" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+        <path d="M190 141Q204 133 218 141Q204 139 190 141Z" fill="#2a1b15" stroke="#2a1b15" stroke-width="1.8" stroke-linejoin="round"/>
+        <ellipse cx="197" cy="149" rx="7" ry="4.5" fill="#d8404a"/><path d="M190 149Q197 145 204 149" stroke="#8f1f27" stroke-width="1.4" fill="none"/>
+        <ellipse cx="206" cy="157" rx="3" ry="2" fill="#2a1b15" opacity=".7"/>
+        <ellipse cx="178" cy="144" rx="7" ry="4.5" fill="#ff7468" opacity=".4"/>
+        <path d="M164 122Q154 76 188 64Q206 54 228 64Q252 76 244 120Q240 96 226 90Q212 84 196 88Q178 92 164 122Z" fill="url(#mHair)"/>
+        <path d="M178 72Q188 48 214 58Q234 54 244 74Q224 64 212 74Q196 64 178 72Z" fill="url(#mHair)"/>
+        <path d="M168 96Q150 84 160 66Q168 74 176 72Z" fill="url(#mHair)"/>
+        <path d="M236 70Q256 62 258 82Q248 80 244 88Z" fill="url(#mHair)"/>
+        <path d="M196 60Q204 44 224 52Q216 56 214 62Z" fill="url(#mHair)"/>
+        <path d="M200 70Q212 66 222 72M184 84Q196 78 208 82M214 84Q226 80 236 86" stroke="rgba(255,255,255,.22)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+        <path d="M168 112Q166 92 178 84" stroke="rgba(255,255,255,.32)" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+        <path d="M186 66Q200 54 216 62" stroke="rgba(255,255,255,.55)" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M222 78Q236 76 240 92" stroke="rgba(255,255,255,.3)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+        <path d="M170 118Q166 130 172 140" stroke="#0e0e12" stroke-width="5" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>
+
+
+      </button>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 3 · PHOTO COLLAGE ============ -->
+<section id="s3" class="scene s3">
+  <div class="col stage">
+    <figure class="frame fs f-l1 fly" style="--fx:-30;--fy:6;--fr:-14deg;--r:-5deg;--d:.05s">
+      <img src="photo-flowers.jpg" alt="Muskaan putting little pink flowers in Zaid's hair" width="700" height="933">
+    </figure>
+    <figure class="frame fs f-r1 fly" style="--fx:30;--fy:6;--fr:14deg;--r:4deg;--d:.15s">
+      <img src="photo-heart.jpg" alt="Zaid and Muskaan making a heart with their hands" width="700" height="933">
+    </figure>
+    <figure class="frame fb f-big fly" style="--fx:0;--fy:30;--fr:0deg;--r:0deg;--d:.1s">
+      <video id="memory" poster="memory-poster.jpg" muted playsinline webkit-playsinline preload="auto" disablepictureinpicture disableremoteplayback tabindex="-1" aria-hidden="true" aria-label="A memory of Zaid and Muskaan"><source src="memory.mp4" type="video/mp4"><source src="memory.webm" type="video/webm"></video>
+    </figure>
+    <figure class="frame fs f-l2 fly" style="--fx:-30;--fy:10;--fr:-12deg;--r:3deg;--d:.2s">
+      <img class="wide" src="photo-selfie.jpg" alt="Close-up selfie of Zaid and Muskaan with heart filter" width="800" height="533">
+    </figure>
+    <figure class="frame fs f-r2 fly" style="--fx:30;--fy:10;--fr:12deg;--r:-4deg;--d:.25s">
+      <img class="wide" src="photo-park.jpg" alt="Zaid and Muskaan together in a park" width="800" height="533">
+    </figure>
+  </div>
+</section>
+
+<!-- ============ 4 · CALENDAR ============ -->
+<section id="s4" class="scene s4">
+  <div class="col">
+    <div class="cal" id="cal" aria-label="October 2026, with 23 circled">
+      <h2 class="cal-month">OCTOBER</h2>
+      <div class="cal-grid" id="calGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5 · FINAL LETTER ============ -->
+<section id="s5" class="scene s5">
+  <div class="col">
+    <div class="finale">
+      <div class="old-env reveal" aria-hidden="true">
+        <svg viewBox="0 0 300 200">
+          <defs><linearGradient id="gOld" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1e6c8"/><stop offset="1" stop-color="#dccfa9"/></linearGradient></defs>
+          <path d="M6 70L150 0L294 70V196H6Z" fill="url(#gOld)"/>
+          <path d="M6 70L150 150L294 70" fill="none" stroke="rgba(120,100,60,.25)" stroke-width="2"/>
+        </svg>
+      </div>
+
+      <article class="letter-card" id="letterCard">
+        <svg class="card-bg" id="cardBg" aria-hidden="true"><path id="cardPath" fill="#f1e7cd"/></svg>
+        <div class="txt" id="finalText">
+          <p>Happy Birthday to the most amazing Future Wife! Thank you for making my life happier and brighter every day. I'm so grateful to have you in my life. I hope your day is filled with love, laughter, and everything that makes you smile. I love you!</p>
+          <p>And yes… one thing is definitely fixed.</p>
+          <p>When Muskaan says it, Zaid does it.</p>
+          <p>Even if it means doing uthak-baithak.</p>
+          <p>And apparently, only Muskaan has the permanent permission to scold Zaid.</p>
+          <p>But honestly, your care, your concern, and the way you understand me mean so much to me.</p>
+          <p>I hope your birthday is filled with happiness, smiles, love, and everything beautiful you deserve.</p>
+          <p>I hope we keep making beautiful memories together and stay this close always.</p>
+          <p>Happy Birthday, my favourite person.</p>
+          <p class="last">My forever favourite.</p>
+          <p>I’m grateful and blessed to have Muskaan in my life. 🪬😭</p>
+          <p class="end">I love you endlessly, Muskuuu. 🙈😭💋</p>
+        </div>
+
+        <figure class="polaroid">
+          <img src="photo-stairs.jpg" alt="Zaid and Muskaan standing together in front of old stone stairs" width="800" height="800">
+        </figure>
+        <svg class="pxheart" id="pxHeart" viewBox="0 0 90 80" aria-hidden="true"></svg>
+
+        <svg class="st s1" viewBox="-10 -10 20 20" aria-hidden="true"><use href="#star" fill="#e2b640"/></svg>
+        <svg class="st s2" viewBox="-10 -10 20 20" aria-hidden="true"><use href="#star" fill="#e2b640"/></svg>
+        <svg class="st s3" viewBox="-10 -10 20 20" aria-hidden="true"><use href="#star" fill="#e2b640"/></svg>
+        <svg class="st s4" viewBox="-10 -10 20 20" aria-hidden="true"><use href="#star" fill="#e2b640"/></svg>
+        <svg class="st s5" viewBox="-10 -10 20 20" aria-hidden="true"><use href="#star" fill="#e2b640"/></svg>
+        <svg class="st s6" viewBox="-10 -10 20 20" aria-hidden="true"><use href="#star" fill="#e2b640"/></svg>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+<audio id="bgm" preload="auto" playsinline><source src="music.mp3" type="audio/mpeg"></audio>
+<script src="script.js"></script>
+</body>
+</html>
